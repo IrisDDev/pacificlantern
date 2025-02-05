@@ -187,7 +187,7 @@ header {
 }
 #logo:hover {
   transform: scale(1.1);
-  content: url(images/logo_apricot.png);
+  content: url(logo_apricot.png);
 }
 .hamburger {
   display: none;
