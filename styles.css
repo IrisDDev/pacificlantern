@@ -187,7 +187,7 @@ header {
 }
 #logo::before,
 #logo::after {
-  content: url(images/logo_ivory.png);
+  content: url(https://irisddev.github.io/pacificlantern/images/logo_ivory.png);
   position: absolute;
   top: 0;
   left: 0;
@@ -195,11 +195,11 @@ header {
   height: 100%;
 }
 #logo:hover::before {
-  content: url(images/logo_ivory.png);
+  content: url(https://irisddev.github.io/pacificlantern/images/logo_ivory.png);
 }
 #logo:hover {
   transform: scale(1.1);
-  content: url(logo_apricot.png);
+  content: url(https://irisddev.github.io/pacificlantern/images/logo_apricot.png);
 }
 
 .hamburger {
