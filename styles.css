@@ -758,9 +758,12 @@ select {
     background-color: #142423;
     width: 100%;
     transition: 0.3s;
-    padding: 3rem 0px;
+    padding: 1rem 0px 3rem;
     border-bottom: 2px solid #f5e6c5;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  .nav-item > .main_btn {
+    margin: 20px;
   }
   .nav-item {
     margin: 16px 0;
@@ -936,5 +939,11 @@ select {
   #thankyou .topic-text {
     padding: 1rem;
     margin: 0px 1rem 4rem;
+  }
+}
+
+@media (max-width: 649px) and (min-width: 490px) {
+  .masonry-mobile-container .mobile-wide {
+    grid-column: span 3;
   }
 }
